@@ -1,4 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.landing {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
 .distortion {
-    width: 920px;
-    height: 640px;
+    width: 860px;
+    height: 600px;
+}
+
+.intro {
+    align-self: center;
+    padding: 2vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.intro h2 {
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 25px;
 }
